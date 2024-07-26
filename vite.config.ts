@@ -8,6 +8,10 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  // server: {  
+  //   host: '192.168.3.46',  
+  //   port: 3000,  
+  // },  
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
